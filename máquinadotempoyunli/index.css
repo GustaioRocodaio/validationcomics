@@ -1,6 +1,6 @@
 body{
 background-color: black;
-color: aliceblue;
+color: rgb(0, 0, 0);
 text-align: center;
 
 }
@@ -22,3 +22,27 @@ left:0;
 }
 
 
+
+
+
+
+
+
+
+
+
+.navbar {
+    background-color: #18207e !important;
+
+
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.content-section {
+    max-width: 900px;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

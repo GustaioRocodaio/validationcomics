@@ -1,48 +1,66 @@
-body{
-background-color: black;
-color: rgb(0, 0, 0);
-text-align: center;
-
-}
-
-.banner {
-
-    width: 100%;
-top:0;
-
-    height: auto; 
-    display: block; 
-    object-fit: cover; 
-
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-left:0;
-
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Comics</title>
+    <link rel="shortcut icon" href="assets/Design sem nome.png">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
 
 
 
+</head>
+<body>
 
 
-
-
-
-
-
-.navbar {
-    background-color: #18207e !important;
-
-
-}
-
-.navbar-brand, .nav-link {
-    color: white !important;
-}
-
-.content-section {
-    max-width: 900px;
     
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Validation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#obras">obras em destaque</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+
+
+
+    <div class="banner">
+
+<img src="assets/Validation Comics.png" alt=""  width="100%" height="100%">
+
+
+</div>
+
+    
+<section class="obras">
+
+    <h1>Obras em destque:</h1>
+    
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

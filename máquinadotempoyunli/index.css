@@ -1,8 +1,12 @@
 body{
-background-color: black;
-color: rgb(255, 255, 255);
+background-color: #363636;
 text-align: center;
+h1{
+    background-color: #363636;
+    
+    color: rgb(255, 255, 255);
 
+}
 }
 
 .banner {
@@ -13,7 +17,7 @@ top:0;
     height: auto; 
     display: block; 
     object-fit: cover; 
-
+    position: relative;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -27,48 +31,91 @@ left:0;
 
 
 
+header{
 
-
-
+    height: 50px;
+width: 100%;
+position: fixed;
+position: relative;
+}
 
 .navbar {
     background-color: #363636 !important;
-text-align: center;
-
+ 
+    justify-content: space-around ;
+        
+    position: fixed ;
+    
+    display: flex;
+top: 0;
 }
 
 .navbar-brand, .nav-link {
+   
+   
     color: white ;
 }
 
 .content-section {
     max-width: 900px;
-    
+    position: fixed;
+top: 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 
-.obras{
+#obras{
 
 color: aliceblue;
 background-color: #363636;
+
+display: flex;
+
 
 }
 
 
 .mangás{
-height: 300px;
-width: 220px;
-background-color: rgb(0, 107, 201)  ;
+height:auto;
+width: auto;
+background-color: rgb(50, 29, 210)  ;
 
 border-radius: 20px;
-text-align: center;
 display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 30px;
-gap: 150px;
 
+
+
+
+padding: 30px;
+text-align: center;
+
+margin: 29px;
+
+
+
+
+}
+
+
+
+.container-com-scroll {
+    height: 100%;
+    width: 100%; 
+    overflow: auto;
+display: flex;
+
+
+
+}
+
+  
+#box{
+
+    color: aliceblue;
+    background-color: #363636;
+    
+    display: flex;
+    
 
 
 }

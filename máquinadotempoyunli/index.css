@@ -9,34 +9,12 @@ h1{
 }
 }
 
-.banner {
-
-    width: 100%;
-top:0;
-
-    height: auto; 
-    display: block; 
-    object-fit: cover; 
-    position: relative;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-left:0;
-
-}
-
-
-
-
-
-
 
 header{
-
     height: 50px;
 width: 100%;
 position: fixed;
-position: relative;
+
 }
 
 .navbar {
@@ -45,6 +23,7 @@ position: relative;
     justify-content: space-around ;
         
     position: fixed ;
+    height: 48px;
     
     display: flex;
 top: 0;
@@ -116,6 +95,21 @@ display: flex;
     
     display: flex;
     
+
+
+}
+
+footer{
+
+text-align: center;
+    background-color: #363636;
+
+}
+
+
+.banner{
+
+top: 10px;
 
 
 }

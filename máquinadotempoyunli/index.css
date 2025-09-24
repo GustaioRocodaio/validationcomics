@@ -1,22 +1,28 @@
 body{
-background-color: #363636;
-text-align: center;
-h1{
     background-color: #363636;
-    
-    color: rgb(255, 255, 255);
-
-}
+    text-align: center;
+    h1{
+        background-color: #363636;
+        
+        color: rgb(255, 255, 255);
+        
+    }
 }
 
 
 header{
     height: 50px;
-width: 100%;
-position: fixed;
-
+    width: 100%;
+    position: fixed;
+    
 }
 
+
+.banner{
+    
+    top: 10px;
+    
+}
 .navbar {
     background-color: #363636 !important;
  
@@ -105,6 +111,9 @@ display: flex;
 }
 
   
+
+
+
 #box{
 
     color: aliceblue;
@@ -116,25 +125,39 @@ display: flex;
 
 }
 
+
+
 footer{
+        color: aliceblue;
+        align-items: center;
+            
+            background-color: #000000;
+        display: flex;
+       
+        }
 
+.Contato{
 
-
-
+align-items: center;
+padding: 50px;
 color: aliceblue;
 
-    
-    background-color: #000000;
+}
 
+
+.redes{
+padding: 50px;
 
 
 
 }
 
 
-.banner{
-
-top: 10px;
 
 
-}
+        .ba{
+
+background-color: #363636;
+
+
+        }

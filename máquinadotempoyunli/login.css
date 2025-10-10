@@ -1,0 +1,45 @@
+body{
+    background-color: #363636;
+    text-align: center;
+    color: aliceblue;
+    h1{
+        background-color: #363636;
+        
+        color: rgb(255, 255, 255);
+        
+    }
+
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+
+
+.navbar {
+    background-color: #000000 !important;
+ 
+    justify-content: space-around ;
+        
+    position: fixed ;
+    height: 48px;
+    
+    display: flex;
+top: 0;
+}
+
+.navbar-brand, .nav-link {
+   background: #000000;
+ 
+    color: #3533cd ;
+}
+
+.login{
+text-align: center;
+padding: 300px;
+
+}

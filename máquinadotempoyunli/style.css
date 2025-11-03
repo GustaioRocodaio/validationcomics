@@ -9,7 +9,6 @@ body{
     }
 }
 
-
 header{
     height: 50px;
     width: 100%;
@@ -24,10 +23,11 @@ header{
     
 }
 .navbar {
-    background-color: #363636 !important;
+    background-color: #000000 !important;
  
     justify-content: space-around ;
-        
+    width: 100%;
+
     position: fixed ;
     height: 48px;
     
@@ -36,16 +36,16 @@ top: 0;
 }
 
 .navbar-brand, .nav-link {
-   
-   
-    color: white ;
+    background-color: #000000 !important;
+ 
+    color: #3533cd ;
 }
 
 .content-section {
     max-width: 900px;
     position: fixed;
 top: 0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 
     padding: 20px;
     margin: 20px auto;
@@ -72,15 +72,21 @@ color: aliceblue;
 background-color: #363636;
 
 display: flex;
+overflow: hidden;
 
 
 }
 
 
+
+
+
+
+
 .mangás{
 height:auto;
 width: auto;
-background-color: rgb(50, 29, 210)  ;
+background-color:#3533cd  ;
 
 border-radius: 20px;
 display: flex;
@@ -94,8 +100,21 @@ text-align: center;
 margin: 29px;
 
 
+}
 
 
+
+.mangás img{
+
+
+    transition: transform 0.3s ease; 
+   
+}
+
+
+.mangás:hover img{
+
+    transform: scale(1.1);
 }
 
 
@@ -129,28 +148,18 @@ display: flex;
 
 footer{
         color: aliceblue;
-        align-items: center;
-            
+    
             background-color: #000000;
-        display: flex;
+     
        
         }
+.baixo{
 
-.Contato{
-
-align-items: center;
-padding: 50px;
-color: aliceblue;
-
+display: flex;
+text-align: center;
+padding: 20px;
 }
 
-
-.redes{
-padding: 50px;
-
-
-
-}
 
 
 
@@ -161,3 +170,5 @@ background-color: #363636;
 
 
         }
+
+        
